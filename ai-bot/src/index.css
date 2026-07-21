@@ -1,0 +1,90 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  /* position:sticky;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0; */
+}
+body{
+  width: 100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(253,246,5,1) 0%, rgba(245,139,139,1) 100.3% );
+}
+.cont{
+  width:70rem;
+  height:30rem;
+  border:2px solid black;
+  border-radius:10px;
+  background-image: linear-gradient( 107.1deg,  rgba(111, 63, 255, 0.74) 11.1%, rgba(21, 191, 229, 0.077) 54.8%, rgba(255, 229, 189, 0.159) 82.9% );
+
+}
+.btn{
+  margin:1rem;
+  width:50px;
+  height:50px;
+  border-radius:30px;
+  background-color: beige;
+  font-weight: bold;
+}
+
+.response{
+  /* border:10px solid black; */
+  width:100%;
+  margin-top:1rem;    
+  margin: right 1rem;
+  word-wrap:normal;
+  /* overflow:break-word; */
+  overflow-y:auto;
+  height:75%;
+  font-size: larger;
+
+}
+/* Width of scrollbar */
+.response::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Background of scrollbar */
+.response::-webkit-scrollbar-track {
+  background: #a59b9b;   /* Change this to any color */
+}
+
+/* Scroll handle */
+/* .response::-webkit-scrollbar-thumb {
+  background-color: aqua;
+  border-radius:10px;
+}
+
+/* Hover effect */
+/* .response::-webkit-scrollbar-thumb:hover {
+  background: #45a049;
+} */ 
+.inp{
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+}
+.f1{
+  position: relative;
+  display:flex;
+  justify-self:center;
+  align-items:center;
+  background-color:rgba(171, 160, 160, 0.418);
+  margin: 1rem;
+  border-radius:10rem;
+}
+.f1 input{
+  border-radius:20px;
+  width:25rem;
+  height: 3rem;
+  padding:1rem;
+  font-size: larger;
+}
